@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Developeur Boubah</title>
+    
+</head>
+    <header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Accueil</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="Competences.html">Competencesd</a>
+            <li><a href="Projets.html">Projets</a>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <section id="hero">
+        
+        <h1>Prise d'Information</h1>
+        <p>Faissons mieux connaissance en m'indiquant le but de votre site web</p>
+    </section>
+    <section id="Formulaire">
+        <h2>Formulaire</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="Prenom">Prenom:</label>
+            <input type="text" id="Prenom" name="Prenom"  required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="Numero de Tel">Numero de Tel:</label>
+            <input type="tel" id="tel" name="tel" required>
+
+            <label for="Nom du commerce">Nom du commerce:</label>
+            <textarea id="commerce" name="Commerce"></textarea>
+
+            <label for="choix">Choisissez une option :</label>
+    <select id="choix" name="choix">
+      <option value="">-- Faites un choix --</option>
+      <option value="option1">Site vitrine</option>
+      <option value="option2">Site de vente</option>
+      <option value="option3">Acompagnement personnaliser</option>
+    </select>"
+
+            
+
+            <button type="submit">Envoyer</button>
